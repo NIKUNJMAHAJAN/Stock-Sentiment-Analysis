@@ -1,47 +1,4 @@
-# MIT License
-#
-# Copyright (c) 2021 Greg James
-#
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-#
-# The above copyright notice and this permission notice shall be included in all
-# copies or substantial portions of the Software.
-#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-# SOFTWARE.
-#
-# RESOURCES USED:
-# https://towardsdatascience.com/text-normalization-for-natural-language-processing-nlp-70a314bfa646
-# https://stackoverflow.com/questions/8376691/how-to-remove-hashtag-user-link-of-a-tweet-using-regular-expression
-# https://stackoverflow.com/questions/19790188/expanding-english-language-contractions-in-python
-# https://stats.stackexchange.com/questions/70801/how-to-normalize-data-to-0-1-range
-# https://stackoverflow.com/questions/48966176/tweepy-truncated-tweets-when-using-tweet-mode-extended
-# https://stackoverflow.com/questions/4270301/matplotlib-multiple-datasets-on-the-same-scatter-plot
-# https://docs.tweepy.org/en/latest/streaming_how_to.html
-# https://www.digitalocean.com/community/tutorials/how-to-perform-sentiment-analysis-in-python-3-using-the-natural-language-toolkit-nltk
-# http://www.nltk.org/howto/twitter.html
-# https://docs.python.org/3/library/datetime.html#timedelta-objects
-# https://pandas.pydata.org/pandas-docs/stable/reference/index.html
-# https://learn.sparkfun.com/tutorials/graph-sensor-data-with-python-and-matplotlib/update-a-graph-in-real-time
-# https://www.r-bloggers.com/2018/07/how-to-get-live-stock-prices-with-python/
-#
-# LIBRARIES USED:
-# https://github.com/tweepy/tweepy
-# https://www.nltk.org/
-# https://matplotlib.org/stable/index.html
-# https://pypi.org/project/yahoo-fin/
-# https://pandas.pydata.org/
-
+#importing necessary libraries
 import tweepy
 import nltk
 import re
