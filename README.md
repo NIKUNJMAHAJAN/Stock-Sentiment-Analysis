@@ -1,6 +1,4 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/gregyjames/twitter-stock-sentiment/badge)](https://www.codefactor.io/repository/github/gregyjames/twitter-stock-sentiment)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4100948574bb40888686954b355f44fd)](https://www.codacy.com/gh/gregyjames/twitter-stock-sentiment/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gregyjames/twitter-stock-sentiment&amp;utm_campaign=Badge_Grade)
-# twitter-stock-sentiment
+# Twitter-stock-sentiment
 This tool trains a NLTK Naive Bayes classifier on positive and negative tweet data then collects, cleans, and classifies the sentiments of live and trending tweets about specified stock tickers to gauge overall market sentiment and its effects on stock price.
 
 ## Modes
@@ -32,25 +30,3 @@ Uses Tweepy stream to collect and calculate the sentiments for live tweets for a
 
 `weeksback`: how far back to go for the high/low to normalize stock data
 
-## License
-MIT License
-
-Copyright (c) 2021 Greg James
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
