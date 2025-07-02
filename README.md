@@ -1,4 +1,4 @@
-# Twitter-stock-sentiment
+# Twitter-Stock-Sentiment-Analysis
 This tool trains a NLTK Naive Bayes classifier on positive and negative tweet data then collects, cleans, and classifies the sentiments of live and trending tweets about specified stock tickers to gauge overall market sentiment and its effects on stock price.
 
 ## Modes
