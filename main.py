@@ -18,8 +18,8 @@ import pandas as pd
 from yahoo_fin import stock_info as si
 
 #twitter auth info MODIFY THIS WITH YOUR TOKENS
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
+auth = tweepy.OAuthHandler(osiab3lveixGhC095AedlMfhz, X2UFvEgjRRdid0aKwQgLLco8mLYfUEaDNokYpnw1djI7AqLzwH)
+auth.set_access_token(1711045530351243264-fd119fe25DwsQ7SdxoFT7O345NJ4uQ,lJgMXq9z9seod2ktIVH1zuPhJY8EFJ1Lz5z2REcefBpZx)
 
 #tweepy api object
 api = tweepy.API(auth)
